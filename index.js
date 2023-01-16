@@ -37,7 +37,7 @@ function menu(){
 }
 
 function criarNave(){
-    let nomeNave = prompt("Informe o nome da nave")
+    let nomeNave = prompt("Informe o nome da nave") 
     let qTripulantes = prompt("Informe a quantidade de tripulantes")
     let nave = new Espaconave(nomeNave, qTripulantes)
     return nave
@@ -53,6 +53,6 @@ function imprirListNaves(naves){
     alert(listNave)
 }
 
-
+ 
 
 menu()
